@@ -2,6 +2,21 @@
 
 Hugo blog for OSE October
 
+## Create a src dir
+
+```bash
+mkdir src
+```
+
+## Init the quickstart files using the go Docker image
+
+```bash
+docker run -it --rm \
+  -v $(pwd)/src:/src \
+  --name go \                                                    
+  golang:1.19 bash
+```
+
 ## Build command for local dev
 
 ### Start the container and mount a local dir
