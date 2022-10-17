@@ -16,6 +16,29 @@ docker run -it --rm \
   --name go \                                                    
   golang:1.19 bash
 ```
+### Within the container just started:
+
+#### Install Hugo
+
+```bash
+cd src
+git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install --tags extended
+```
+
+#### Deploy the quickstart
+
+```bash
+hugo new site quickstart
+```
+
+#### Add a theme
+
+```bash
+cd quickstart
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+```
 
 ## Build command for local dev
 
