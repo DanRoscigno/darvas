@@ -45,17 +45,15 @@ echo theme = \"ananke\" >> config.toml
 hugo new posts/my-first-post.md
 ```
 
-## Build command for local dev
-
-### Start the container and mount a local dir
-
-docker run -it --rm --name hugo -v /home/droscigno/GitHub/darvas/src:/src klakegg/hugo:0.101.0 bash
-
-### Start Golang in Docker
+#### Start a webserver with drafts enabled
 
 ```bash
-docker run --rm -it -v /home/droscigno/GitHub/darvas/src:/src klakegg/hugo:0.101.0
+hugo server -D
 ```
+
+## Edit files
+
+You can edit the files in src/quickstart and the changes will be visible in the browser, 
 
 ## GitHub Action for build and deploy
 
