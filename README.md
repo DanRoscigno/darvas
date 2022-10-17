@@ -11,7 +11,7 @@ mkdir src
 ## Init the quickstart files using the go Docker image
 
 ```bash
-docker run -it --rm -v /home/droscigno/GitHub/darvas/src:/src --name go golang:1.19 bash
+docker run -it --rm -v /home/droscigno/GitHub/darvas/src:/go/src --name go golang:1.19 bash
 ```
 ### Within the container just started:
 
