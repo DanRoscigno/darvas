@@ -27,6 +27,7 @@ go install --tags extended
 #### Deploy the quickstart
 
 ```bash
+cd ../src
 hugo new site quickstart
 ```
 
