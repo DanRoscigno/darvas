@@ -11,10 +11,7 @@ mkdir src
 ## Init the quickstart files using the go Docker image
 
 ```bash
-docker run -it --rm \
-  -v /home/droscigno/GitHub/darvas/src:/src \
-  --name go \
-  golang:1.19 bash
+docker run -it --rm -v /home/droscigno/GitHub/darvas/src:/src --name go golang:1.19 bash
 ```
 ### Within the container just started:
 
@@ -45,17 +42,12 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 
 ### Start the container and mount a local dir
 
-docker run -it --rm \
-  --name hugo \
-  -v /home/droscigno/GitHub/darvas/src:/src \
-  klakegg/hugo:0.101.0 bash
+docker run -it --rm --name hugo -v /home/droscigno/GitHub/darvas/src:/src klakegg/hugo:0.101.0 bash
 
 ### Start Golang in Docker
 
 ```bash
-docker run --rm -it \
-  -v /home/droscigno/GitHub/darvas/src:/src \
-  klakegg/hugo:0.101.0
+docker run --rm -it -v /home/droscigno/GitHub/darvas/src:/src klakegg/hugo:0.101.0
 ```
 
 ## GitHub Action for build and deploy
