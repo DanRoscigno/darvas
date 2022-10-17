@@ -11,7 +11,7 @@ mkdir src
 ## Init the quickstart files using the go Docker image
 
 ```bash
-docker run -it --rm -v /home/droscigno/GitHub/darvas/src:/go/src --name go golang:1.19 bash
+docker run -it --rm --network="host" -v /home/droscigno/GitHub/darvas/src:/go/src --name go golang:1.19 bash
 ```
 ### Within the container just started:
 
@@ -36,6 +36,13 @@ hugo new site quickstart
 ```bash
 cd quickstart
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+echo theme = \"ananke\" >> config.toml
+```
+
+#### Add a post
+
+```bash
+hugo new posts/my-first-post.md
 ```
 
 ## Build command for local dev
