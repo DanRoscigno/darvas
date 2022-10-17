@@ -12,7 +12,7 @@ mkdir src
 
 ```bash
 docker run -it --rm \
-  -v $(pwd)/src:/src \
+  -v /home/droscigno/GitHub/darvas/src:/src \
   --name go \                                                    
   golang:1.19 bash
 ```
@@ -37,6 +37,7 @@ hugo new site quickstart
 
 ```bash
 cd quickstart
+git init
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 
@@ -46,14 +47,14 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 
 docker run -it --rm \
   --name hugo \
-  -v $(pwd):/src \
+  -v /home/droscigno/GitHub/darvas/src:/src \
   klakegg/hugo:0.101.0 bash
 
 ### Start Golang in Docker
 
 ```bash
 docker run --rm -it \
-  -v $(pwd):/src \
+  -v /home/droscigno/GitHub/darvas/src:/src \
   klakegg/hugo:0.101.0
 ```
 
