@@ -1,0 +1,3 @@
+[submodule "src/hugo"]
+	path = src/hugo
+	url = https://github.com/gohugoio/hugo.git

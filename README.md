@@ -8,6 +8,13 @@ Hugo blog for OSE October
 mkdir src
 ```
 
+### Add hugo as a submodule
+
+```bash
+cd src
+git submodule add https://github.com/gohugoio/hugo.git hugo
+```
+
 ## Init the quickstart files using the go Docker image
 
 ```bash
