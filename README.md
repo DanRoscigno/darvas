@@ -13,7 +13,7 @@ mkdir src
 ```bash
 docker run -it --rm \
   -v /home/droscigno/GitHub/darvas/src:/src \
-  --name go \                                                    
+  --name go \
   golang:1.19 bash
 ```
 ### Within the container just started:
