@@ -35,7 +35,6 @@ hugo new site quickstart
 
 ```bash
 cd quickstart
-git init
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 
