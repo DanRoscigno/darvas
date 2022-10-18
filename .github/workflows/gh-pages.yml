@@ -30,6 +30,7 @@ jobs:
           hugo --minify
 
       - name: Deploy
+        working-directory: ./src/quickstart
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
