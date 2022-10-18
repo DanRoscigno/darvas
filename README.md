@@ -33,7 +33,7 @@ go install --tags extended -buildvcs=false
 #### Deploy the quickstart
 
 ```bash
-cd ../src
+cd ../
 hugo new site quickstart
 ```
 
