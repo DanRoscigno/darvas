@@ -26,7 +26,7 @@ docker run -it --rm --network="host" -v /home/droscigno/GitHub/darvas/src:/go/sr
 
 ```bash
 cd src
-git clone https://github.com/gohugoio/hugo.git
+git submodule add https://github.com/gohugoio/hugo.git hugo
 cd hugo
 go install --tags extended
 ```
