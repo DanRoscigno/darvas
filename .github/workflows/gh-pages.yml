@@ -24,7 +24,7 @@ jobs:
           extended: true
 
       - name: Build
-        working-directory: ./quickstart
+        working-directory: ./src/quickstart
         run: |
           pwd
           ls -R | grep public
