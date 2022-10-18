@@ -40,6 +40,7 @@ hugo new site quickstart
 
 #### Add a theme
 
+This needs to be run on the host machine, not in the Docker container as the entire repo `darvas` is not mounted in the container, and the submodule command will fail.
 ```bash
 cd quickstart
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
