@@ -2,4 +2,4 @@ baseURL = 'https://main--sweet-figolla-586142.netlify.app/'
 languageCode = 'en-us'
 title = 'OSR October'
 theme = "ananke"
-disqusShortname = "osr-role-playing"
+disqusShortname = 'osr-role-playing'
