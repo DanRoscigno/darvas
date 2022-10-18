@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://danroscigno.github.io/darvas/'
 languageCode = 'en-us'
 title = 'OSR October'
 theme = "ananke"
