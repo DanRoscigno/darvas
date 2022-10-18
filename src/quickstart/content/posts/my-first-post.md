@@ -17,5 +17,3 @@ Why OSR?  More role-play, less wasted time, more fun.
 [^1]: https://dnd.wizards.com/adventurers-league
 [^2]: https://www.atomicempire.com/
 [^3]: https://tenkeepblog.blogspot.com/
-
-{{ template "_internal/disqus.html" . }}
