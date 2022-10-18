@@ -1,3 +1,6 @@
 [submodule "src/hugo"]
 	path = src/hugo
 	url = https://github.com/gohugoio/hugo.git
+[submodule "src/quickstart/themes/ananke"]
+	path = src/quickstart/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git

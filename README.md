@@ -18,7 +18,7 @@ git submodule add https://github.com/gohugoio/hugo.git hugo
 ## Init the quickstart files using the go Docker image
 
 ```bash
-docker run -it --rm --user 1000:1000 --network="host" -v /home/droscigno/GitHub/darvas/src:/go/src --name go golang:1.18 bash
+docker run --env GOCACHE=/go/src/.cache -it --rm --user 1000:1000 --network="host" -v /home/droscigno/GitHub/darvas/src:/go/src --name go golang:1.18 bash
 ```
 ### Within the container just started:
 
