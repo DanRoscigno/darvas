@@ -27,7 +27,7 @@ docker run -it --rm --network="host" -v /home/droscigno/GitHub/darvas/src:/go/sr
 ```bash
 cd src
 cd hugo
-go install --tags extended
+go install --tags extended -buildvcs=false
 ```
 
 #### Deploy the quickstart
