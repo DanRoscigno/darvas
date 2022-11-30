@@ -1,7 +1,7 @@
 ---
 title: "How To"
 date: 2022-11-30T17:38:26-05:00
-draft: true
+draft: false
 ---
 
 Next October, the chances of me remembering how to use this
@@ -10,11 +10,11 @@ are pretty slim.  So:
 - look to see if I have the repo github.com/danroscigno/darvas cloned to
 `/home/droscigno/GitHub/darvas/`
   - `git pull` if it is there, or clone it if it is missing
-- Start a Golang container (I don't have any luck with Golang, so I run it in a container.  Same with Python.  Probably nothing to do with my ability to run these, and everything to do with incompatible versions.  I know that Golang version X works with Hugo, so I run the proper version in my container...)
+- Start a Golang container (I don't have any luck with Golang, so I run it in a container.  Same with Python.  Probably has nothing to do with my ability to run these, and everything to do with incompatible versions.  I know that Golang version X works with Hugo, so I run the proper version in my container...)
 
   Note: make sure that the path for the volume (`-v /home...`) is correct
 
-  Note: make sure the UID/ GID (`1000:1000`) are also correct
+  Note: make sure the UID and GID (`1000:1000`) are also correct
 
   ```bash
   docker run \
@@ -26,7 +26,7 @@ are pretty slim.  So:
     --name go golang:1.18 bash
    ````
 - open a new shell on the host machine (maybe you can edit the post in the container
-but I like my neovim env on my laptop)
+but I like my Neovim env on my laptop)
 - Navigate to the dir that is mounted in the `-v` above
 - Run the `hugo` command to create a post.  What you are reading now was created with:
   ```bash
@@ -49,4 +49,5 @@ but I like my neovim env on my laptop)
     ```
   - Create a PR
   - As soon as you create a PR you should see an email from Netlify
-  - Now I am fuzzy, the Netlify preview is only showing the first post that I made.  I will try merging the PR and see what happens...
+  - Once Netlify does its thing the PR will show the link for the preview.  If all you see is the previous post, then double-check the markdown and make sure `draft: false` is there.  Don't ask me how I know that this happens ;)
+  - Merge the PR and then the changes will propagate to darvas.roscigno.com
