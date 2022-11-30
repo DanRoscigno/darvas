@@ -40,9 +40,13 @@ but I like my neovim env on my laptop)
   ```
 - Publish
   - Edit the frontmatter of the post and set `draft: false`
+  - create a branch if you have not, `git switch -c add-post`
   - Commit the changes and push
     ```bash
     git add .
     git commit -m "add post"
     git push
     ```
+  - Create a PR
+  - As soon as you create a PR you should see an email from Netlify
+  - Now I am fuzzy, the Netlify preview is only showing the first post that I made.  I will try merging the PR and see what happens...
