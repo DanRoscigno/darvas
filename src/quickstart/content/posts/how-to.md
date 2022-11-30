@@ -49,4 +49,5 @@ but I like my Neovim env on my laptop)
     ```
   - Create a PR
   - As soon as you create a PR you should see an email from Netlify
-  - Now I am fuzzy, the Netlify preview is only showing the first post that I made.  I will try merging the PR and see what happens...
+  - Once Netlify does its thing the PR will show the link for the preview.  If all you see is the previous post, then double-check the markdown and make sure `draft: false` is there.  Don't ask me how I know that this happens ;)
+  - Merge the PR and then the changes will propagate to darvas.roscigno.com
