@@ -2,4 +2,7 @@
 .hugo_build.lock
 public
 resources
+latex/**/*.pdf
+latex/**/*.log
+latex/**/*.aux
 
