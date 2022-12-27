@@ -1,13 +1,35 @@
-\documentclass{article}
-\usepackage[a4paper]{geometry}
+\documentclass[a4paper]{article}
 \usepackage{multicol}
 \usepackage{lipsum}
-
+\usepackage{tikz}
+\usepackage{float}
 \begin{document}
 
 \begin{multicols}{2}
-  \lipsum[1-14]
+\lipsum[1-3]
+\begin{table}[H]
+  \begin{center}
+    \caption{Your first table.}
+    \label{tab:table1}
+    \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+      \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+      $\alpha$ & $\beta$ & $\gamma$ \\
+      \hline
+      1 & 1110.1 & a\\
+      2 & 10.1 & b\\
+      3 & 23.113231 & c\\
+    \end{tabular}
+  \end{center}
+\end{table}
+\lipsum[3-4]
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    \draw circle (1);
+  \end{tikzpicture}
+  \caption{Figure in two column}
+\end{figure}
+\lipsum[5-6]
 \end{multicols}
-
 \end{document}
 
