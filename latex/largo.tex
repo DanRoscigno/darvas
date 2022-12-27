@@ -1,5 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage{multicol}
+\usepackage{caption}
 \usepackage{lipsum}
 \usepackage{tikz}
 \usepackage{float}
@@ -9,19 +10,46 @@
 \lipsum[1-3]
 \begin{table}[H]
   \begin{center}
-    \caption{Your first table.}
-    \label{tab:table1}
-    \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-      \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
-      $\alpha$ & $\beta$ & $\gamma$ \\
-      \hline
-      1 & 1110.1 & a\\
-      2 & 10.1 & b\\
-      3 & 23.113231 & c\\
+    \caption*{Ability Scores}
+    %\label{}
+    \begin{tabular}{l|r} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
+      STR & 13\\
+      INT & 11\\
+      WIS & 11\\
+      DEX & 12\\
+      CON & 15\\
+      CHA & 15\\
     \end{tabular}
   \end{center}
 \end{table}
 \lipsum[3-4]
+\begin{table}[H]
+  \begin{center}
+    \caption*{Saving Throws}
+    %\label{}
+    \begin{tabular}{l|c} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
+      13 & Death, Poison\\
+      14 & Wands\\
+      13 & Paralysis, Petrify\\
+      16 & Breath Attacks\\
+      15 & Spells, Rods, Staves\\
+    \end{tabular}
+  \end{center}
+\end{table}
+\begin{table}[H]
+  \begin{center}
+    \caption*{Skills and Abilities}
+    %\label{}
+    \begin{tabular}{r|r} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
+      Melee & +1\\
+      Open doors & 3 / 6\\
+      Hit point & +1\\
+      NPC Reaction & +1\\
+      Loyalty & 8\\
+      Max retainers & 5\\
+    \end{tabular}
+  \end{center}
+\end{table}
 \begin{figure}[H]
   \centering
   \begin{tikzpicture}
