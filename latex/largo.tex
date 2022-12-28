@@ -5,12 +5,13 @@
 \usepackage{tikz}
 \usepackage{float}
 \usepackage{enumitem}
+\usepackage{ascii}
+\setcounter{secnumdepth}{0}
 \begin{document}
 
 \begin{multicols}{2}
+\section{Ability Scores}
 \begin{table}[H]
-  \begin{center}
-    \caption*{Ability Scores}
     %\label{}
     \begin{tabular}{l|r} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
       STR & 13\\
@@ -20,12 +21,10 @@
       CON & 15\\
       CHA & 15\\
     \end{tabular}
-  \end{center}
 \end{table}
+
+\section{Saving Throws}
 \begin{table}[H]
-  \begin{center}
-    \caption*{Saving Throws}
-    %\label{}
     \begin{tabular}{l|c} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
       13 & Death, Poison\\
       14 & Wands\\
@@ -33,12 +32,10 @@
       16 & Breath Attacks\\
       15 & Spells, Rods, Staves\\
     \end{tabular}
-  \end{center}
 \end{table}
+
+\section{Wealth}
 \begin{table}[H]
-  \begin{center}
-    \caption*{Wealth}
-    %\label{}
     \begin{tabular}{r|r} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
       Gold     & 46\\
       Silver   & 0\\
@@ -46,12 +43,10 @@
       EP       & 0\\
       Platinum & 66\\
     \end{tabular}
-  \end{center}
 \end{table}
+
+\section{Skills and Abilities}
 \begin{table}[H]
-  \begin{center}
-    \caption*{Skills and Abilities}
-    %\label{}
     \begin{tabular}{r|r} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
       Melee & +1\\
       Open doors & 3 / 6\\
@@ -60,42 +55,41 @@
       Loyalty & 8\\
       Max retainers & 5\\
     \end{tabular}
-  \end{center}
-\end{table}
-\begin{table}[H]
-  \begin{center}
-    \caption*{Inventory}
-    %\label{}
-    \begin{tabular}{r} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
-      Mule\\
-      Water skin (2)\\
-      Rope\\
-      Mallet\\
-      Tinder box\\
-      Dagger (2)\\
-      Stakes (3)\\
-      Spikes (8)\\
-      Backpack\\
-      Torches (10)\\
-      Grappling hook\\
-      Vellum map and burned, banged up bone case\\
-    \end{tabular}
-  \end{center}
 \end{table}
 
-Spells and Magic Items
+\section{Inventory}
+\begin{itemize}[nosep, itemindent=1em, label= ]
+  \item Mule
+  \item Water skin (2)
+  \item Rope
+  \item Mallet
+  \item Tinder box
+  \item Dagger (2)
+  \item Stakes (3)
+  \item Spikes (8)
+  \item Backpack
+  \item Torches (10)
+  \item Grappling hook
+  \item Vellum map and burned, banged up bone case
+\end{itemize}
+
+\section{Spells and Magic Items}
 \begin{itemize}[nosep, itemindent=1em, label=-]
   \item Spellbook with:
-  \begin{itemize}[nosep, itemindent=1em, label=-]
+    \begin{itemize}[nosep, itemindent=1em, label=-]
     \item Read Magic spell taught to me by Realto
     \item Sleep spell copied from the Weavers' serape
     \item unknown damaged spells
   \end{itemize}
-\item Scrap metal: bronze sword and 2 or 3 hobbles
+\item Scrap metal:
+  \begin{itemize}[nosep, itemindent=1em, label=-]
+    \item bronze sword
+    \item 2 or 3 hobbles
+  \end{itemize}
 \item A flask of holy water blessed by Criomar
 \item 3 flasks with Criomar's writing on them
   \begin{itemize}[nosep, itemindent=1em, label=-]
-    \item Mark may have told me what some of them are
+    \item Mark may have told me what some are
   \end{itemize}
 \item 2 flasks of unknown origin and content
 \item A book from the witches desk, unknown content
@@ -110,15 +104,17 @@ Spells and Magic Items
   \caption{Figure in two column}
 \end{figure}
 \end{multicols}
+
+\begin{center}
+\section{THACO}
+\end{center}
 \begin{table}[H]
-  \begin{center}
-    \caption*{THACO}
-    %\label{}
+\begin{center}
     \begin{tabular}{r|r|r|r|r|r|r|r|r|r|r} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
       AC: & 9 & 8 & 7 & 6 & 5 & 4 & 3 & 2 & 1 & 0\\
       To-Hit Needed & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19\\
     \end{tabular}
-  \end{center}
+\end{center}
 \end{table}
 \end{document}
 
