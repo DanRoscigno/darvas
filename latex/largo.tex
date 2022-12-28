@@ -4,6 +4,7 @@
 \usepackage{caption}
 \usepackage{tikz}
 \usepackage{float}
+\usepackage{enumitem}
 \begin{document}
 
 \begin{multicols}{2}
@@ -81,25 +82,26 @@
     \end{tabular}
   \end{center}
 \end{table}
-\begin{table}[H]
-  \begin{center}
-    \caption*{Spells and Magic Items}
-    %\label{}
-    \begin{tabular}{l} % <-- Alignments: 1st column left, 2nd right, with vertical lines in between
-      Spellbook with:\\
-        - Read Magic spell taught to me by Realto\\
-        - Sleep spell copied from the Weavers' serape\\
-        - unknown damaged spells\\
-      Scrap metal: bronze sword and 2 or 3 hobbles\\
-      A flask of holy water blessed by Criomar\\
-      3 flasks with Criomar's writing on them\\
-        - Mark may have told me what some of them are\\
-      2 flasks of unknown origin and content\\
-      A book from the witches desk, unknown content\\
-      3 scroll cases with unknown content\\
-    \end{tabular}
-  \end{center}
-\end{table}
+
+Spells and Magic Items
+\begin{itemize}[nosep, itemindent=1em, label=-]
+  \item Spellbook with:
+  \begin{itemize}[nosep, itemindent=1em, label=-]
+    \item Read Magic spell taught to me by Realto
+    \item Sleep spell copied from the Weavers' serape
+    \item unknown damaged spells
+  \end{itemize}
+\item Scrap metal: bronze sword and 2 or 3 hobbles
+\item A flask of holy water blessed by Criomar
+\item 3 flasks with Criomar's writing on them
+  \begin{itemize}[nosep, itemindent=1em, label=-]
+    \item Mark may have told me what some of them are
+  \end{itemize}
+\item 2 flasks of unknown origin and content
+\item A book from the witches desk, unknown content
+\item 3 scroll cases with unknown content
+\end{itemize}
+
 \begin{figure}[H]
   \centering
   \begin{tikzpicture}
