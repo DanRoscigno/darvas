@@ -10,22 +10,19 @@ and I am moving my character sheet to this blog so that I
 can maintain it in GitHub and have it available all the time
 and wherever I am.
 
+---
+
 The Real Arnosto is a Fighter/Magic User/Werewolf. Say that three
 times quickly.
 
-| Classes            | Background | Alignment | Level |
-:------------------: | :--------: | :-------: | :---: |
-| Fighter/Magic User | Weaver     | Neutral   | 2/1   |
+| | |
+|--|--|
+|Classes   |Fighter/Magic User|
+|Background|Weaver            |
+|Alignment |Neutral           |
+|Levels    |2/1               |
 
 ![The Real Arnosto](/images/TheRealArnosto.png)
-
-<div>
-<img 
-  src="TheRealArnosto.png"
-  alt="The Real Arnosto"
-  style="width:200px;"
-/>
-</div>
 
 ---
 
