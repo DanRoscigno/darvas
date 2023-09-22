@@ -17,7 +17,7 @@ times quickly.
 | Fighter/Magic User | Weaver     | Neutral   | 2/1   |
 
 <img 
-  src="./TheRealArnosto.png"
+  src="TheRealArnosto.png"
   alt="The Real Arnosto"
   style="width:200px;"
 />
