@@ -16,11 +16,13 @@ times quickly.
 :------------------: | :--------: | :-------: | :---: |
 | Fighter/Magic User | Weaver     | Neutral   | 2/1   |
 
+<div>
 <img 
   src="TheRealArnosto.png"
   alt="The Real Arnosto"
   style="width:200px;"
 />
+</div>
 
 ---
 
