@@ -1,5 +1,6 @@
 ---
 title: "The Real Arnosto"
+featured_image: "/images/TheRealArnosto.png"
 date: 2023-09-22T18:18:26-05:00
 draft: false
 ---
@@ -15,6 +16,8 @@ times quickly.
 | Classes            | Background | Alignment | Level |
 :------------------: | :--------: | :-------: | :---: |
 | Fighter/Magic User | Weaver     | Neutral   | 2/1   |
+
+![The Real Arnosto](/images/TheRealArnosto.png)
 
 <div>
 <img 
