@@ -28,6 +28,12 @@ times quickly.
 
 ## Statistics
 
+|             |           |
+| :---------- | :-------: |
+| **AC**      | **I don't know, have to look at notes**    |
+| **XP**      | **4,920** |
+| **HP**      | **10/10** |
+
 |  Strength  | Intelligence |  Wisdom  |  Dexterity  |  Constitution  |  Charisma  |
 | :--------: | :----------: | :------: | :---------: | :------------: | :--------: |
 | **13**     | **11**       | **8**    | **11**      | **11**         | **10**     |
