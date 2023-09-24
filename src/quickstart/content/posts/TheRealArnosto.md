@@ -34,6 +34,8 @@ times quickly.
 | **XP**      | **4,920** |
 | **HP**      | **10/10** |
 
+---
+
 ## Ability Scores
 
 |                   |        |
@@ -45,6 +47,8 @@ times quickly.
 | **CON**stitution  | **11** |
 | **CHA**risma      | **10** |
 
+---
+
 ## Saving Throws
 
 |                          |          |
@@ -54,6 +58,8 @@ times quickly.
 | **P**aralysis, Petrify   |  **13**  |
 | **B**reath Attcks        |  **15**  |
 | **S**pells, Rods, Staves |  **16**  |
+
+---
 
 ## Skills and Abilities
 
