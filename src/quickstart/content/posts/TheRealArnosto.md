@@ -34,16 +34,20 @@ times quickly.
 | **XP**      | **4,920** |
 | **HP**      | **10/10** |
 
-|                    |        |
-| :----------------- | :----: |
-| **STR**ength       | **13** |
-|  **INT**elligence  | **11** |
-|  **WIS**dom        | **8**  |
-|  **DEX**terity     | **11** |
-|  **CON**stitution  | **11** |
-|  **CHA**risma      | **10** |
+## Ability Scores
 
-| Saving Throws            |          |
+|                   |        |
+| :---------------- | :----: |
+| **STR**ength      | **13** |
+| **INT**elligence  | **11** |
+| **WIS**dom        | **8**  |
+| **DEX**terity     | **11** |
+| **CON**stitution  | **11** |
+| **CHA**risma      | **10** |
+
+## Saving Throws
+
+|                          |          |
 | :----------------------- | :------: |
 | **D**eath, Poison        |  **12**  |
 | **W**ands                |  **13**  |
@@ -51,7 +55,9 @@ times quickly.
 | **B**reath Attcks        |  **15**  |
 | **S**pells, Rods, Staves |  **16**  |
 
-| Skills & Abilities |                          |
+## Skills and Abilities
+
+|                    |                          |
 | ------------------ | ------------------------ |
 | Melee:             | +1 on attack and damage  |
 | Open Stuck Doors:  | 3/6                      |
