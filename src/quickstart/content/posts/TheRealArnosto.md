@@ -3,7 +3,7 @@ title: "The Real Arnosto"
 featured_image: "/images/TheRealArnosto.png"
 date: 2023-09-22T18:18:26-05:00
 draft: false
-description: "The Real Arnosto is a Fighter/Magic User/Werewolf. Say that three times quickly."
+summary: "The Real Arnosto is a Fighter/Magic User/Werewolf. Say that three times quickly."
 ---
 
 It is not quite October yet, but I need to warm up a little
