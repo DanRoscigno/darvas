@@ -3,14 +3,7 @@ title: "The Real Arnosto"
 featured_image: "/images/TheRealArnosto.png"
 date: 2023-09-22T18:18:26-05:00
 draft: false
-summary: .Content | truncate 80
----
-
-It is not quite October yet, but I need to warm up a little
-and I am moving my character sheet to this blog so that I 
-can maintain it in GitHub and have it available all the time
-and wherever I am.
-
+summary: "The Real Arnosto is a Fighter/Magic User/Werewolf. Say that three times quickly./nfoo"
 ---
 
 The Real Arnosto is a Fighter/Magic User/Werewolf. Say that three
