@@ -5,5 +5,3 @@ theme = "ananke"
 commentoEnable = true
 disqusShortname = 'osr-role-playing'
 
-[params]
-  post_content_classes = "Baskerville bg-near-white"
