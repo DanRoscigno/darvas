@@ -6,4 +6,4 @@ commentoEnable = true
 disqusShortname = 'osr-role-playing'
 
 [params]
-  post_content_classes = "'ITC Souvenir Light' bg-near-white"
+  post_content_classes = "'Baskerville, Garamond, Palatino, Times New Roman, Times' bg-near-white"
