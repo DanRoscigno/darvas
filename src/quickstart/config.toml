@@ -7,3 +7,4 @@ disqusShortname = 'osr-role-playing'
 
 [params]
   body_classes = "baskervvile bg-near-white"
+  post_content_classes = "baskervvile bg-near-white"
