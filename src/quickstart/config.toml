@@ -4,3 +4,4 @@ title = 'OSR October'
 theme = "ananke"
 commentoEnable = true
 disqusShortname = 'osr-role-playing'
+post_content_classes = "souvenir bg-near-white"
