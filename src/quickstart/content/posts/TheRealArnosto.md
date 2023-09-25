@@ -84,11 +84,13 @@ times quickly.
 
 ---
 
-## Treasure
+## Treasure and Gear
 
-| Gold | Silver | Copper |
-| :--- | :----: | :----: |
-| 000  |   000  |   000  |
+|          |        |
+| :------- | :----: |
+| Gold     |   000  |
+| Silver   |   000  |
+| Platinum |   000  |
 
 - **Rope** 50ft
 - **Rations** 00 days
