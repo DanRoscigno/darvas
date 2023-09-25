@@ -6,4 +6,5 @@ commentoEnable = true
 disqusShortname = 'osr-role-playing'
 
 [params]
-  post_content_classes = "'ITC Souvenir Light' bg-near-white"
+  body_classes = "baskervvile bg-near-white"
+  post_content_classes = "baskervvile bg-near-white"
