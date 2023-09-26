@@ -22,11 +22,14 @@ times quickly.
 
 ## Statistics
 
-|             |           |
-| :---------- | :-------: |
-| **AC**      | **I don't know, have to look at notes**    |
-| **XP**      | **4,920** |
-| **HP**      | **10/10** |
+|                  |           |
+| :--------------- | :-------: |
+| **XP**           | **4,920** |
+| **HP**           | **10**    |
+| **AC** Leather   | **7**     |
+| **AC** Chainmail | **5**     |
+| **AC** Plate     | **3**     |
+| (shield bonus)   | **-1**    |
 
 ---
 
