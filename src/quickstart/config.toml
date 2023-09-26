@@ -4,6 +4,7 @@ languageCode = 'en-us'
 theme = "ananke"
 commentoEnable = true
 disqusShortname = 'osr-role-playing'
+backgroundImage = '/images/FadedFighter.png'
 
 [params]
   body_classes = "baskervvile bg-near-white"
