@@ -1,6 +1,6 @@
 ---
 title: "All Hallows Eve to the fourth"
-featured_image: "/images/TheRealArnosto.png"
+featured_image: "/images/full-moon.webp"
 date: 2023-10-28T22:01:26-05:00
 draft: false
 summary: "Tonight was a full moon where we were, but let us go back some time and learn what happened in the past..."
