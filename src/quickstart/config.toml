@@ -1,8 +1,8 @@
 title = 'OSR October'
-baseURL = 'https://main--sweet-figolla-586142.netlify.app/'
+baseURL = 'https://darvas.roscigno.com/'
 languageCode = 'en-us'
 theme = "ananke"
-commentoEnable = true
+commentoEnable = false
 disqusShortname = 'osr-role-playing'
 
 [params]
