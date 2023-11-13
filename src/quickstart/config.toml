@@ -2,7 +2,6 @@ title = 'OSR October'
 baseURL = 'https://darvas.roscigno.com/'
 languageCode = 'en-us'
 theme = "ananke"
-disqusShortname = 'osr-role-playing'
 
 [params]
   body_classes = "baskervvile bg-near-white"
