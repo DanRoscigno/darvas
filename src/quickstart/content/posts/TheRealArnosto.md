@@ -112,6 +112,7 @@ The Real Arnosto:
 
 ## Spells
 
-| 1st level (2/2 slots)                            | Ready | Ritual | Effect                                                                                    |
-| ------------------------------------------------ | :---: | :----: | :---------------------------------------------------------------------------------------: |
-| [Name](https://link.to.necrotic.gnome.srd/)      |   x   |        |                                                                                           |
+| Range | Defense        | Spell                                                                                    |
+| :---: | :------------- | :--------------------------------------------------------------------------------------- |
+| 240'  | Normal THACO   | [Sleep](https://oldschoolessentials.necroticgnome.com/srd/index.php/Sleep)               |
+| 120'  | Save vs. Spell | [Charm Person](https://oldschoolessentials.necroticgnome.com/srd/index.php/Charm_Person) |
