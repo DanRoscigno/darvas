@@ -14,7 +14,7 @@ times quickly.
 |Classes   |Fighter/Magic User|
 |Background|Weaver            |
 |Alignment |Neutral           |
-|Levels    |2/1               |
+|Levels    |2/2               |
 
 ![The Real Arnosto](/images/TheRealArnosto.png)
 
@@ -24,8 +24,8 @@ times quickly.
 
 |                  |           |
 | :--------------- | :-------: |
-| **XP**           | **4,920** |
-| **HP**           | **10**    |
+| **XP**           | **5,???** |
+| **HP**           | **12**    |
 | **AC** Leather   | **7**     |
 | **AC** Chainmail | **5**     |
 | **AC** Plate     | **3**     |
@@ -67,7 +67,6 @@ times quickly.
 | Retainers Max:     | 4                        |
 | Loyalty:           | 7                        |
 
-
 ---
 
 ## Equipment
@@ -77,7 +76,6 @@ times quickly.
 ---
 
 ## Features and Traits
-
 
 ---
 
@@ -96,7 +94,6 @@ times quickly.
 
 
 ## Background
-
 Weaver, need to fill this in.
 
 ## Adventures
@@ -106,16 +103,16 @@ Weaver, need to fill this in.
 
 The Real Arnosto:
 
- - is about 5' tall
- - has bushy black hair
- - has a beard that keeps growing back, no matter how often he shaves
- - has bare feet, which is not uncommon in these parts
- - has hazel eyes
- - sports a minimal smile, in fact it is probably a quarter of a smirk; the only way to tell if he is happy is if you can see a sparkle in his eyes
+- is about 5' tall
+- has bushy black hair
+- has a beard that keeps growing back, no matter how often he shaves
+- has bare feet, which is not uncommon in these parts
+- has hazel eyes
+- sports a minimal smile, in fact it is probably a quarter of a smirk; the only way to tell if he is happy is if you can see a sparkle in his eyes
 
 ## Spells
 
-| 1st level (2/2 slots)                            | Ready | Ritual | Effect                                                                                    |
-| ------------------------------------------------ | :---: | :----: | :---------------------------------------------------------------------------------------: |
-| [Name](https://link.to.necrotic.gnome.srd/)      |   x   |        |                                                                                           |
-
+| Range | Defense        | Spell                                                                                    |
+| :---- | :------------- | :--------------------------------------------------------------------------------------- |
+| 240'  | Normal THACO   | [Sleep](https://oldschoolessentials.necroticgnome.com/srd/index.php/Sleep)               |
+| 120'  | Save vs. Spell | [Charm Person](https://oldschoolessentials.necroticgnome.com/srd/index.php/Charm_Person) |
