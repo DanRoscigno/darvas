@@ -113,6 +113,6 @@ The Real Arnosto:
 ## Spells
 
 | Range | Defense        | Spell                                                                                    |
-| :---: | :------------- | :--------------------------------------------------------------------------------------- |
+| :---- | :------------- | :--------------------------------------------------------------------------------------- |
 | 240'  | Normal THACO   | [Sleep](https://oldschoolessentials.necroticgnome.com/srd/index.php/Sleep)               |
 | 120'  | Save vs. Spell | [Charm Person](https://oldschoolessentials.necroticgnome.com/srd/index.php/Charm_Person) |
