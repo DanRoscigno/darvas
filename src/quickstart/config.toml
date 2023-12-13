@@ -8,4 +8,4 @@ theme = "ananke"
   post_content_classes = "baskervvile bg-near-white"
   # I don't use commento, but I use the commento partial
   commentoEnable = true
-  custom_css = ["custom.css"]
+  custom_css = ["css/custom.css"]
