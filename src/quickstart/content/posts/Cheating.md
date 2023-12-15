@@ -1,6 +1,6 @@
 ---
 title: "Is it cheating if I forgot who I am?"
-featured_image: "/images/backpage3.jpg"
+featured_image: "/images/backpack.jpg"
 date: 2023-12-15T22:01:26-05:00
 draft: false
 summary: "During a game I forgot which character I was and used a potion that I may not have had"
