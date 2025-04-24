@@ -1,5 +1,7 @@
 # darvas
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d429cc9-7808-4635-8046-fb094b712f7b/deploy-status)](https://app.netlify.com/sites/sweet-figolla-586142/deploys)
+
 Hugo blog for OSE October
 
 ## Adding a post
